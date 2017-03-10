@@ -1,0 +1,100 @@
+body {
+  padding-top: 50px;
+}
+.container{
+    max-width: 970px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+p{
+    margin: 0;
+}
+input{
+    border: solid 1px #ccc;
+}
+input[type=checkbox],
+input[type=radio]{
+	margin: 4px;
+}
+label{
+    margin: 0 10px;
+}
+label.disabled{
+	position: relative;
+	opacity: .4;
+}
+input[type=file]{
+	display: inline-block;
+	line-height: 10px;
+}
+select{
+    margin: 0 10px;
+}
+textarea{
+    width: 335px;
+    height: 120px;
+    resize: vertical;
+    border: solid 1px #ccc;
+}
+input[name=f]{
+    width: 295px;
+}
+.original,
+.result{
+	min-height: 140px;
+    border: dotted 1px #ccc;
+    box-sizing: border-box;
+    padding: 14px;
+}
+.original{
+	border-right: none;
+    padding-right: 7px;
+}
+.result{
+	border-left: none;
+    padding-left: 7px;
+}
+.original img,
+.result img{
+	width: 100%;
+}
+.loader{
+	background: url(../images/loader.gif) no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+.simplex_table{
+    display: none;
+}
+.simplex_table td{
+    width: 10%;
+    box-sizing: border-box;
+}
+.template_data,
+.template_result{
+    display: none;
+    text-align: left;
+    margin: 0 auto;
+    background: #eee;
+    margin-bottom: 20px;
+    padding: 12px 24px;
+}
+.system{
+    border-left: solid 2px #000;
+    padding: 0 14px;
+    margin-top: 14px;
+}
+.reset{
+    margin-bottom: 20px;
+}
+.disabled{
+    opacity: .4;
+}
